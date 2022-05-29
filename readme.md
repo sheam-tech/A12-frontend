@@ -1,5 +1,5 @@
 # Sensor-Bazar
-# LiveSite Link:
+# LiveSite Link: https://manufacture-123.web.app/
 
 
 ## Features and Functionality
