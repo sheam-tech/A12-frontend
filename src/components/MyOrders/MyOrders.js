@@ -31,7 +31,7 @@ const MyOrders = () => {
   // React Hook for Fetching All Books From The Server API
   useEffect(() => {
     setIsLoading(true);
-    fetch(`http://localhost:5000/orders/${authUser?.email}`, {
+    fetch(`https://whispering-wildwood-07642.herokuapp.com/orders/${authUser?.email}`, {
       headers: {
         "Content-Type": "application/json",
         email: `${authUser?.email}`,
@@ -159,7 +159,7 @@ const MyOrders = () => {
     if (proceed) {
       setReload(true);
       axiosPrivate
-        .delete(`http://localhost:5000/orders/${cancelOrderId}`)
+        .delete(`https://whispering-wildwood-07642.herokuapp.com/orders/${cancelOrderId}`)
         .then(({data}) => {
           console.log(data);
           if(data.deletedCount){

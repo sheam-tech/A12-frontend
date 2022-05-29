@@ -24,7 +24,7 @@
 
 //   useEffect(() => {
 //     axiosPrivate
-//       .get(`http://localhost:5000/tools/${params.id}`, {
+//       .get(`https://whispering-wildwood-07642.herokuapp.com/tools/${params.id}`, {
 //         headers: {
 //           email: authUser?.email,
 //         },
@@ -85,7 +85,7 @@
     
 //     axiosPrivate
 //       .post(
-//         "http://localhost:5000/orders",
+//         "https://whispering-wildwood-07642.herokuapp.com/orders",
 //         userOrder,
 //         {
 //           headers: {

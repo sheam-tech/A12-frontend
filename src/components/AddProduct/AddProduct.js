@@ -59,7 +59,7 @@ const AddProduct = () => {
                availableQuantity: data.availableQuantity,
                toolDescription: data.toolDescription,
              };
-             fetch("http://localhost:5000/product", {
+             fetch("https://whispering-wildwood-07642.herokuapp.com/product", {
                method: "POST",
                headers: {
                  "content-type": "application/json",
